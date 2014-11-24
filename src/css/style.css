@@ -1,0 +1,126 @@
+#top-part {
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding:10px;
+    border: solid 1px #555;
+}
+
+#display-input {
+    width: 100%;
+    font: 16px/16px"Monospace", serif;
+    text-align: left;
+    background: #85ADAD;
+    padding: 5px;
+    margin-left: -5px;
+}
+#display-output {
+    width: 100%;
+    font: 30px/30px"Lucida Console", serif;
+    text-align: right;
+    background: #669999;
+    padding: 5px;
+    margin-left: -5px;
+}
+#middle-part {
+    height: 10px;
+}
+#left-part {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+#right-part {
+    margin-left: 50%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+
+}
+
+.buttons {
+    font: bold 20px/20px"Consolas", serif;
+    background: -webkit-linear-gradient(135deg, #222, #ddd);
+    color: white;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 26px;
+    height: 21px;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.newLine {
+    clear: left;
+}
+
+.yellow-button {
+    font: bold 16px/16px"Lucida Console", serif;
+    background: -webkit-linear-gradient(135deg, #220, #dd0);
+    color: black;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 26px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.red-button {
+    font: bold 16px/20px"Lucida Console", serif;
+    background: -webkit-linear-gradient(135deg, #200, #d00);
+    color: white;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 26px;
+    height: 21px;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+#calculator {
+    width:410px;
+    background-color:#747474;
+    float: left;
+    position:relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding:10px;
+    
+    border: solid 1px #555;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
+}
